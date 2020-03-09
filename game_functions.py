@@ -121,7 +121,7 @@ def ship_hit(ai_settings,stats,screen,ship,aliens,bullets):
 
         create_fleet(ai_settings,screen,ship,aliens)
         ship.center_ship()
-
+        
         sleep(0.5)
 
 def check_aliens_bottom(ai_settings,stats,screen,ship,aliens,bullets):
